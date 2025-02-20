@@ -1,0 +1,20 @@
+
+{
+    "manifest_version": 3,
+    "name": "Ad Blocker for Studydrive",
+    "version": "1.0",
+    "description": "Blocks the premium ad banner on studydrive.net because of reasons",
+    "icons": {
+        "48": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.studydrive.net/*"],
+            "js": ["content.js"],
+            "css": ["styles.css"]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ]
+}

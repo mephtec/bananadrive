@@ -1,0 +1,5 @@
+
+/* Hide the ad banner using CSS */
+img[src="/images/premium_ads/billboard_premium.png"] {
+    display: none !important;
+}
